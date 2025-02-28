@@ -5,7 +5,7 @@
 # Calculating the air property
 def airScoreCalculation():
     while True: # If false, the function will repeat in case the user made a mistake entering values
-        airValue = input("Enter whether the Patient is on air (A) or oxygen (O): ").upper() # Input for calculating Air or Oxygen property
+        airValue = input("Enter whether the Patient is on air (A) or oxygen (O): ").upper() # Input for calculating Air or Oxygen property, using .upper to ensure consistency for the choices.
         
         if airValue == "A":
             return 0
