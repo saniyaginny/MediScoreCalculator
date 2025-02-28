@@ -190,15 +190,6 @@ mediScore = airScore + consciousScore + respirationScore + bloodOxygenScore + te
 print("The patient's final Medi score:" , mediScore) # The output is user friendly
 print("  ")
 
-        
-
-
-
-
-
-        
-
-
 
 
 
